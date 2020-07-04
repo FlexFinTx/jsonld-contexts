@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@version": 0.1,
+    "@protected": true,
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "NationalID": {
+      "@id": "https://raw.githubusercontent.com/FlexFinTx/jsonld-contexts/master/contexts/nationalId.jsonld#",
+      "@context": {
+        "@version": 0.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "http://schema.org/",
+        "nationalId": "schema:identifier",
+        "givenName": "schema:givenName",
+        "familyName": "schema:familyName",
+        "gender": "schema:gender",
+        "birthDate": "schema:birthDate",
+        "address": "schema:address"
+      }
+    }
+  }
+}
