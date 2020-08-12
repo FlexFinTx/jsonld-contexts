@@ -4,7 +4,7 @@
     "@protected": true,
     "name": "http://schema.org/name",
     "description": "http://schema.org/description",
-    "NationalID": {
+    "NationalIDCredential": {
       "@id": "https://raw.githubusercontent.com/FlexFinTx/jsonld-contexts/master/contexts/nationalId.jsonld#",
       "@context": {
         "@version": 0.1,
