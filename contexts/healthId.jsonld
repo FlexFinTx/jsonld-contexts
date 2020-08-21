@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "HealthIDCredential": {
+      "@id": "https://raw.githubusercontent.com/FlexFinTx/jsonld-contexts/master/contexts/healthId.jsonld#",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "http://schema.org/",
+        "healthId": "schema:identifier",
+        "givenName": "schema:givenName",
+        "familyName": "schema:familyName",
+        "gender": "schema:gender"
+      }
+    }
+  }
+}
