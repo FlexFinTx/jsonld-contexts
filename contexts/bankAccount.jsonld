@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "BankAccountCredential": {
+      "@id": "https://raw.githubusercontent.com/FlexFinTx/jsonld-contexts/master/contexts/bankAccount.jsonld#",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "http://schema.org/",
+        "accountNumber": "schema:text",
+        "accountType": "schema:text",
+        "registrationDate": "schema:date"
+      }
+    }
+  }
+}
