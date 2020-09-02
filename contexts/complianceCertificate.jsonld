@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "ComplianceCertificateCard": {
+      "@id": "https://raw.githubusercontent.com/FlexFinTx/jsonld-contexts/master/contexts/complianceCertificate.jsonld#ComplianceCertificateCard",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "http://schema.org/",
+        "description": "schema:description",
+        "credentialId": "schema:identifier",
+        "credentialName": "schema:name",
+        "illustration": "schema:image"
+      }
+    },
+    "ComplianceCertificateCredential": {
+      "@id": "https://raw.githubusercontent.com/FlexFinTx/jsonld-contexts/master/contexts/complianceCertificate.jsonld#ComplianceCertificateCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "http://schema.org/",
+        "nationalId": "schema:identifier",
+        "givenName": "schema:givenName",
+        "familyName": "schema:familyName",
+        "gender": "schema:gender",
+        "birthDate": "schema:birthDate",
+        "address": "schema:address",
+        "complianceLevel": "schema:text"
+      }
+    }
+  }
+}
