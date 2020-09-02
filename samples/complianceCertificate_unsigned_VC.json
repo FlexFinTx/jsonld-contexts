@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://raw.githubusercontent.com/FlexFinTx/jsonld-contexts/master/contexts/complianceCertificate.jsonld",
+    "https://w3c-ccg.github.io/ldp-bbs2020/context/v1"
+  ],
+  "id": "http://example.co.zw/credentials/complianceCert",
+  "type": ["VerifiableCredential", "ComplianceCertificateCard"],
+  "description": "A certificate representing KYC compliance",
+  "credentialId": "2342342341424",
+  "credentialName": "Compliance Certificate",
+  "illustration": "https://i.imgur.com/CYP1ohS.png",
+  "issuanceDate": "2020-03-10T04:24:12.164Z",
+  "expirationDate": "2020-03-10T04:24:12.164Z",
+  "credentialSubject": {
+    "id": "did:flex:testnet:EiCHzIhOUeAdS3vjjdsIQ8v2CfXN935B7F6NIokzPJo_5g",
+    "type": "ComplianceCertificateCredential",
+    "nationalId": "9999999999",
+    "givenName": "Haardik",
+    "familyName": "Haardik",
+    "gender": "Male",
+    "birthDate": "1999-05-21",
+    "address": "123 St, XYZ Avenue, Harare, Zimbabwe",
+    "complianceLevel": "KYC Lite"
+  }
+}
